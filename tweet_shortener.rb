@@ -25,7 +25,7 @@ end
      tweet.split(" ").map do |phrase|
        if phrase.length > 140
          word_substituter(phrase)
-       else phrase.length < 140
+       else phrase.length <= 140
          phrase
        end
      end
