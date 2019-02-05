@@ -31,4 +31,5 @@ end
      end
    end
    
-   
+   def shortened_tweet_truncator(tweet)
+     
