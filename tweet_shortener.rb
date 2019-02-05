@@ -26,7 +26,7 @@ end
        if phrase.length > 140
          word_substituter(phrase)
        else phrase.length <= 140
-         word_substituter(phrase)
+         phrase
        end
      end
    end
